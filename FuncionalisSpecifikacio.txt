@@ -1,3 +1,8 @@
+3. Terjedelem
+Célunk egy olyan program létrehozása, amely széles körben, minden ember számára elérhető. Fontos, hogy mivel törvényileg ez a program nem számít szerencsejátéknak, 18 év alatt is elsajátítható vele a Blackjack játék.
+Cél, hogy a felhasználói felület könnyen kezelhető legyen, hogy bárki használni tudja azt. 
+
+
 11. Fogalomszótár
 Dealer: Az osztó, a játék esetében a gép, aki ellen játszik a felhasználó.
 
