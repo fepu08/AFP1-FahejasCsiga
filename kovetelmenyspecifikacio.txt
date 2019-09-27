@@ -1,6 +1,9 @@
 Követelmény specifikáció
 
 1. Bevezetés
+A rendszer olyanok számára készül, akik szeretnének megtanulni Blackjack-ezni, viszont nem szeretnék a pénzüket kockára tenni a tanulási folyamat alatt, valamint olyan embereknek is ajánljuk, akik már ismerik a játékot, de csak egy rövid, kockázatmentes kikapcsolódásra vágynak. A felhasználók kizárólag egy szerepkört töltenek be, a játékosét (osztók nem lehetnek). Ahogy az eredeti játékban, itt is körökre van osztva. Először is a játékos betesz egy tétet, a játékosoknak két kártyát osztanak ki képpel felfelé a dobozukba, és az osztó  két kártyát, egyiket képpel felfelé (atlantic city stílus).
+
+
 
 2. Jelenlegi helyzet
 
