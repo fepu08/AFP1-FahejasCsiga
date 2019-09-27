@@ -6,3 +6,12 @@ A rendszer csak asztali számítógépen lesz elérhető.
 
 11. Tesztterv
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése. Azaz a játék az ismert szabályoknak megfeleljen, a felhasználói felület megfelelően működjön.
+
+Alfa teszt:
+A teszt elsődleges célja, az eddig meglévő funkciók tesztelése, játékmenet, valamint lapok és annak értékeinek ellenőrzése. A tesztet a fejlesztők végzik. Az eljárás sikeres, ha a lapok és értékeik megegyeznek,
+a játék a szabályoknak megfelelően működik. A teszt időtartama egy hét.
+
+Beta teszt:
+
+Ezt a tesztet már a felhasználók végzik, időtartama egy hét. A tesztelés alatt a felhasználók visszajelzéseket küldhetnek, ha a játékkal kapcsolatban valamilyen hiba lép fel. Ha valami hiba lenne a programban a
+fejlesztők kijavítják a lehető leghamarabb.
