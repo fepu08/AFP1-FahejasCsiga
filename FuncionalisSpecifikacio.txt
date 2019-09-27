@@ -1,0 +1,10 @@
+11. Fogalomszótár
+Hit: Ez a lapkérésre használt kifejezés. A játékos tetszőleges számú lapot kérhet mindaddig, amíg a lapjainak összértéke meg nem haladja a 21-et.
+
+Stand: A megállásra használt kifejezés. A játékos ekkor nem kér több lapot, mert úgy ítéli meg, hogy megfelelő lapjai vannak a játék megnyerésére.
+
+Bust: Ha a játékos, vagy az osztó lapjainak összértéke a 21-et meghaladja, akkor „besokall” és elveszíti a játékot.
+
+Push: Ha a játékos és az osztó lapjainak összértéke egyforma, akkor a Push kifejezés a használatos az eredmény közlésére.
+
+Blackjack: Ha a játékos, vagy az osztó első két lapjának összértéke pontosan 21, akkor azt Blackjack-nek nevezzük. Ez csak úgy lehetséges, ha az egyik lap Ász, a másik lap értéke pedig 10 (Király, Dáma, Bubi, vagy 10-es).
