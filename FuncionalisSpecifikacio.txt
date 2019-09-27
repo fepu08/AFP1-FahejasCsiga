@@ -1,4 +1,8 @@
 11. Fogalomszótár
+Dealer: Az osztó, a játék esetében a gép, aki ellen játszik a felhasználó.
+
+Player: A játékos, maga a felhasználó.
+
 Hit: Ez a lapkérésre használt kifejezés. A játékos tetszőleges számú lapot kérhet mindaddig, amíg a lapjainak összértéke meg nem haladja a 21-et.
 
 Stand: A megállásra használt kifejezés. A játékos ekkor nem kér több lapot, mert úgy ítéli meg, hogy megfelelő lapjai vannak a játék megnyerésére.
