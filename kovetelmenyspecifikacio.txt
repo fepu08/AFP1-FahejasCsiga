@@ -14,6 +14,14 @@ képpel felfelé a dobozukba, és az osztó  két kártyát, egyiket képpel fel
 3. Vágyálomrendszer
 
 4. Jelenlegi üzleti folyamatok modellje
+A mai világban már teljesen hétköznapinak számítanak az online szerencsejátékok (rulett, poker stb.),
+amiknél valódi valuta alapú téteket lehet felrakni. Mint ahogy az lenni szokott, legtöbbször a
+Bank nyer, és rengeteg ember kerül rossz anyagi helyzetbe emiatt. Ügyfelünk próbálja ezt a helyzetet
+kiküszöbölni és helyette kizárólag érték nélküli játékzsetonokkal történő fogadásokat lehet kötni
+az applikációban. Mivel önmagában ez semmi nyereséget nem hoz, az ügyfelünk ezt reklámokkal szeretné
+kompenzálni, ebből várva a bevételt. Így a felhasználókhoz pénztárcabarát, teljesen ingyenes, mikro-
+tranzakcióktól mentes szoftver kerül, kiküszöbölve ezzel azt is, hogy nem kell a valuta feltöltését,
+valamint a kifizetést megoldani, sem jogilag, sem pedig szoftverügyileg.
 
 5. Igényelt üzleti folyamatok modellje
 
