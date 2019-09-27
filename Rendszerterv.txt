@@ -1,0 +1,4 @@
+A rendszer célja, hogy a felhasználó anyagi kockázat nélkül próbára tudja tenni a szerencséjét, kikapcsolódhat.
+A felhasználó krediteket gyűjthet, attól függően, hogy sikerül-e legyőznie a gépet a játékban, valamit a kijelzőn látja, hogy mennyit sikerült összegyűjtenie.
+Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken, ezért egy letisztult, de mégis jól kinéző felhasználói felületet kap a program.
+A rendszer csak asztali számítógépen lesz elérhető. 
