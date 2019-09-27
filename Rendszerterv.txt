@@ -1,4 +1,8 @@
-A rendszer célja, hogy a felhasználó anyagi kockázat nélkül próbára tudja tenni a szerencséjét, kikapcsolódhat.
-A felhasználó krediteket gyűjthet, attól függően, hogy sikerül-e legyőznie a gépet a játékban, valamit a kijelzőn látja, hogy mennyit sikerült összegyűjtenie.
+1. Rendszer célja
+A rendszer célja, hogy a felhasználó anyagi kockázat nélkül próbára tudja tenni a szerencséjét, kikapcsolódást nyújt.
+A felhasználó krediteket gyűjthet, attól függően, hogy sikerül-e legyőznie a gépet a játékban, valamint a kijelzőn látja, hogy mennyit kreditet sikerült összegyűjtenie.
 Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken, ezért egy letisztult, de mégis jól kinéző felhasználói felületet kap a program.
 A rendszer csak asztali számítógépen lesz elérhető. 
+
+11. Tesztterv
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése. Azaz a játék az ismert szabályoknak megfeleljen, a felhasználói felület megfelelően működjön.
