@@ -12,6 +12,11 @@ képpel felfelé a dobozukba, és az osztó  két kártyát, egyiket képpel fel
 2. Jelenlegi helyzet
 
 3. Vágyálomrendszer
+A projekt célja egy olyan számítógépes szoftver, ami kikapcsolódást nyújt a mindennapi életben, 
+próbára tehetjük szerencsénket, anélkül, hogy bármilyen anyagi hátrány érne minket. Látványos, 
+színes, átlátható felülettel rendelkezik a program, hogy egyszerű legyen és felkeltse a felhasználók
+figyelmét. A játékban egy adott kredit mennyiséggel kezdünk, és a gép ellen játszunk, a cél, hogy
+legyőzzük a számítógépet és minél több kreditet szerezzünk.
 
 4. Jelenlegi üzleti folyamatok modellje
 A mai világban már teljesen hétköznapinak számítanak az online szerencsejátékok (rulett, poker stb.),
