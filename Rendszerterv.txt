@@ -13,6 +13,12 @@ A rendszer csak asztali számítógépen lesz elérhető.
 5. Funkcionális terv
 
 6. Fizikai Környezet
+- Az alkalmazás kizárólag asztali Java platformra készül.
+- Nincs hálózathoz csatlakoztatva
+- Nincsennek megvásárolt komponenseink
+- Fejlesztő eszközök:
+	- Notepad++
+	- intelliJ IDEA
 
 7. Absztrakt domain modell
 
