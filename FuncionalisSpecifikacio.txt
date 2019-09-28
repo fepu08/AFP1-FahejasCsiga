@@ -4,12 +4,14 @@ Funkcionális Specifikáció
 A rendszer olyanok számára készül, akik szeretnének megtanulni Blackjack-ezni, 
 viszont nem szeretnék a pénzüket kockára tenni a tanulási folyamat alatt, 
 valamint olyan embereknek is ajánljuk, akik már ismerik a játékot, de csak egy rövid, 
-kockázatmentes kikapcsolódásra vágynak. A játék bárki bárhonnan ingyenesen le tudja majd tölteni és semmiféle mikrotranzakciót nem fog tartalmazni.
+kockázatmentes kikapcsolódásra vágynak. A játék bárki bárhonnan ingyenesen le tudja majd 
+tölteni és semmiféle mikrotranzakciót nem fog tartalmazni.
 
 2.Jelenlegi helyzet
 
 3. Terjedelem
-Célunk egy olyan program létrehozása, amely széles körben, minden ember számára elérhető. Fontos, hogy mivel törvényileg ez a program nem számít szerencsejátéknak, 18 év alatt is elsajátítható vele a Blackjack játék.
+Célunk egy olyan program létrehozása, amely széles körben, minden ember számára elérhető.
+Fontos, hogy mivel törvényileg ez a program nem számít szerencsejátéknak, 18 év alatt is elsajátítható vele a Blackjack játék.
 Cél, hogy a felhasználói felület könnyen kezelhető legyen, hogy bárki használni tudja azt. 
 
 4. Jelenlegi folyamatok modellje
@@ -29,14 +31,15 @@ Cél, hogy a felhasználói felület könnyen kezelhető legyen, hogy bárki has
 11. Fogalomszótár
 Dealer: Az osztó, a játék esetében a gép, aki ellen játszik a felhasználó.
 
-Player: A játékos, maga a felhasználó.
+Player:	A játékos, maga a felhasználó.
 
-Hit: Ez a lapkérésre használt kifejezés. A játékos tetszőleges számú lapot kérhet mindaddig, amíg a lapjainak összértéke meg nem haladja a 21-et.
+Hit:	Ez a lapkérésre használt kifejezés. A játékos tetszőleges számú lapot kérhet mindaddig, amíg a lapjainak összértéke meg nem haladja a 21-et.
 
-Stand: A megállásra használt kifejezés. A játékos ekkor nem kér több lapot, mert úgy ítéli meg, hogy megfelelő lapjai vannak a játék megnyerésére.
+Stand:	A megállásra használt kifejezés. A játékos ekkor nem kér több lapot, mert úgy ítéli meg, hogy megfelelő lapjai vannak a játék megnyerésére.
+	
+Bust:	Ha a játékos, vagy az osztó lapjainak összértéke a 21-et meghaladja, akkor „besokall” és elveszíti a játékot.
 
-Bust: Ha a játékos, vagy az osztó lapjainak összértéke a 21-et meghaladja, akkor „besokall” és elveszíti a játékot.
+Push:	Ha a játékos és az osztó lapjainak összértéke egyforma, akkor a Push kifejezés a használatos az eredmény közlésére.
 
-Push: Ha a játékos és az osztó lapjainak összértéke egyforma, akkor a Push kifejezés a használatos az eredmény közlésére.
-
-Blackjack: Ha a játékos, vagy az osztó első két lapjának összértéke pontosan 21, akkor azt Blackjack-nek nevezzük. Ez csak úgy lehetséges, ha az egyik lap Ász, a másik lap értéke pedig 10 (Király, Dáma, Bubi, vagy 10-es).
+Blackjack: Ha a játékos, vagy az osztó első két lapjának összértéke pontosan 21, akkor azt Blackjack-nek nevezzük. 
+	   Ez csak úgy lehetséges, ha az egyik lap Ász, a másik lap értéke pedig 10 (Király, Dáma, Bubi, vagy 10-es).
