@@ -4,6 +4,25 @@ A felhasználó krediteket gyűjthet, attól függően, hogy sikerül-e legyőzn
 Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken, ezért egy letisztult, de mégis jól kinéző felhasználói felületet kap a program.
 A rendszer csak asztali számítógépen lesz elérhető. 
 
+2. Projekt terv
+
+3. Üzleti folyamatok modellje 
+
+4. Követelmények 
+
+5. Funkcionális terv
+
+6. Fizikai Környezet
+
+7. Absztrakt domain modell
+
+8. Architekturális terv
+
+9. Adatbázis terv 	
+
+10. Implementációs terv
+
+
 11. Tesztterv
 A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése. Azaz a játék az ismert szabályoknak megfeleljen, a felhasználói felület megfelelően működjön.
 
@@ -15,3 +34,8 @@ Beta teszt:
 
 Ezt a tesztet már a felhasználók végzik, időtartama egy hét. A tesztelés alatt a felhasználók visszajelzéseket küldhetnek, ha a játékkal kapcsolatban valamilyen hiba lép fel. Ha valami hiba lenne a programban a
 fejlesztők kijavítják a lehető leghamarabb.
+
+12. Telepítési terv
+
+13. Karbantartási terv
+
