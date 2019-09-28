@@ -1,7 +1,12 @@
 Funkcionális Specifikáció
-1. Áttekintés
 
-2.Jelenlegi helyzet.
+1. Áttekintés
+A rendszer olyanok számára készül, akik szeretnének megtanulni Blackjack-ezni, 
+viszont nem szeretnék a pénzüket kockára tenni a tanulási folyamat alatt, 
+valamint olyan embereknek is ajánljuk, akik már ismerik a játékot, de csak egy rövid, 
+kockázatmentes kikapcsolódásra vágynak. A játék bárki bárhonnan ingyenesen le tudja majd tölteni és semmiféle mikrotranzakciót nem fog tartalmazni.
+
+2.Jelenlegi helyzet
 
 3. Terjedelem
 Célunk egy olyan program létrehozása, amely széles körben, minden ember számára elérhető. Fontos, hogy mivel törvényileg ez a program nem számít szerencsejátéknak, 18 év alatt is elsajátítható vele a Blackjack játék.
