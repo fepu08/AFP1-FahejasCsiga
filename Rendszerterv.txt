@@ -25,6 +25,7 @@ A rendszer csak asztali számítógépen lesz elérhető.
 8. Architekturális terv
 
 9. Adatbázis terv 	
+A program nem használ adatbázist.
 
 10. Implementációs terv
 
