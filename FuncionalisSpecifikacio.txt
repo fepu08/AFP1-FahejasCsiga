@@ -15,6 +15,12 @@ Fontos, hogy mivel törvényileg ez a program nem számít szerencsejátéknak, 
 Cél, hogy a felhasználói felület könnyen kezelhető legyen, hogy bárki használni tudja azt. 
 
 4. Jelenlegi folyamatok modellje
+vA kaszinók közismertek, hiszen 1931-ben Nevada államban, Las Vegasban nyílt meg az első legális amerikai kaszinó.
+A kaszinók amely helyt ad a különböző szerencsejátékoknak és falain belül legális keretek között hazardírozhatnak a játékosok.
+Az online kaszinók – melyeket neveznek virtuális, illetve internetes kaszinóknak is – a hagyományos kaszinók interneten elérhető változatai. 
+Az online kaszinók lehetőséget adnak a játékosoknak, hogy interneten keresztül játszhassanak. Az online kaszinók általában 
+olyan esélyeket kínálnak, és olyan kifizetési struktúrával működnek, melyek nagyon hasonlóak a valódi kaszinókban tapasztaltakhoz.
+A kaszinókban, legyen az egy igazi, vagy virtuális, az egyik legnépszerűbb kártyajáték a Blackjak.
 
 5. Igényelt folyamatok modellje
 
