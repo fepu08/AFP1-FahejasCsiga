@@ -1,7 +1,25 @@
+Funkcionális Specifikáció
+1. Áttekintés
+
+2.Jelenlegi helyzet.
+
 3. Terjedelem
 Célunk egy olyan program létrehozása, amely széles körben, minden ember számára elérhető. Fontos, hogy mivel törvényileg ez a program nem számít szerencsejátéknak, 18 év alatt is elsajátítható vele a Blackjack játék.
 Cél, hogy a felhasználói felület könnyen kezelhető legyen, hogy bárki használni tudja azt. 
 
+4. Jelenlegi folyamatok modellje
+
+5. Igényelt folyamatok modellje
+
+6. Követelménylista
+
+7. Képernyőtervek
+
+8. Adatmodell
+
+9. Használati esetek
+
+10. Forgatókönyv
 
 11. Fogalomszótár
 Dealer: Az osztó, a játék esetében a gép, aki ellen játszik a felhasználó.
