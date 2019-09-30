@@ -2,7 +2,7 @@
 A rendszer célja, hogy a felhasználó anyagi kockázat nélkül próbára tudja tenni a szerencséjét, kikapcsolódást nyújt.
 A felhasználó krediteket gyűjthet, attól függően, hogy sikerül-e legyőznie a gépet a játékban, valamint a kijelzőn látja, hogy mennyit kreditet sikerült összegyűjtenie.
 Fontos, hogy a felhasználó könnyen el tudjon igazodni a felületeken, ezért egy letisztult, de mégis jól kinéző felhasználói felületet kap a program.
-A rendszer csak asztali számítógépen lesz elérhető. 
+A rendszer csak számítógépen lesz elérhető. 
 
 2. Projekt terv
 
