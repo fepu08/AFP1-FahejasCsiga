@@ -8,6 +8,13 @@ kockázatmentes kikapcsolódásra vágynak. A játék bárki bárhonnan ingyenes
 tölteni és semmiféle mikrotranzakciót nem fog tartalmazni.
 
 2.Jelenlegi helyzet
+A megrendelő blackjack játékot szeretne csináltatni, ahol ingyen lehetne szerencsejátékot játszani. Véleménye szerint igény van egy innovatív, játékosok igényeit teljesen
+kielégítő szoftverre.	
+Olyan programot szeretne létrehozni, amihez ha nincs nálunk egy baráti beszélgetés alkalmával egy pakli kártya , akkor se kelljen hiányt szenvednünk ez a fajta szerencsejátéban,
+illetve kisebb versenyek is kialakulhatnak.	
+A megrendelés és a játék célja hogy a figyelmet elterelje egy pár
+percre és kikapcsolja a felhasználót, összehozzon baráti társaságokat, illetve a gyors pár perc alatt
+játszott játék győzelmével a sikerélmény kiszakíthatja őket a szürke mindennapokból.
 
 3. Terjedelem
 Célunk egy olyan program létrehozása, amely széles körben, minden ember számára elérhető.
