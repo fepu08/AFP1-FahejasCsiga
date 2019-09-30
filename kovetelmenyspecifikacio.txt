@@ -10,6 +10,13 @@ Először is a játékos betesz egy tétet, a játékosoknak két kártyát oszt
 képpel felfelé a dobozukba, és az osztó  két kártyát, egyiket képpel felfelé (atlantic city stílus).
 
 2. Jelenlegi helyzet
+A megrendelő blackjack játékot szeretne csináltatni, ahol ingyen lehetne szerencsejátékot játszani. Véleménye szerint igény van egy innovatív, játékosok igényeit teljesen
+kielégítő szoftverre.	
+Olyan programot szeretne létrehozni, amihez ha nincs nálunk egy baráti beszélgetés alkalmával egy pakli kártya , akkor se kelljen hiányt szenvednünk ez a fajta szerencsejátéban,
+illetve kisebb versenyek is kialakulhatnak.	
+A megrendelés és a játék célja hogy a figyelmet elterelje egy pár
+percre és kikapcsolja a felhasználót, összehozzon baráti társaságokat, illetve a gyors pár perc alatt
+játszott játék győzelmével a sikerélmény kiszakíthatja őket a szürke mindennapokból.
 
 3. Vágyálomrendszer
 A projekt célja egy olyan számítógépes szoftver, ami kikapcsolódást nyújt a mindennapi életben, 
@@ -26,17 +33,8 @@ Az online kaszinók lehetőséget adnak a játékosoknak, hogy interneten keresz
 olyan esélyeket kínálnak, és olyan kifizetési struktúrával működnek, melyek nagyon hasonlóak a valódi kaszinókban tapasztaltakhoz.
 A kaszinókban, legyen az egy igazi, vagy virtuális, az egyik legnépszerűbb kártyajáték a Blackjak.
 
-################################
-
-A mai világban már teljesen hétköznapinak számítanak az online szerencsejátékok (rulett, poker stb.),
-amiknél valódi valuta alapú téteket lehet felrakni. Mint ahogy az lenni szokott, legtöbbször a
-Bank nyer, és rengeteg ember kerül rossz anyagi helyzetbe emiatt.
-Ügyfelünk azzal próbálja ezt a helyzetet megoldan, hogy kizárólag érték nélküli játékzsetonokkal történő
-fogadásokat lehet kötni az applikációban. Mivel önmagában ez semmi nyereséget nem hoz, az ügyfelünk ezt reklámokkal szeretné
-kompenzálni, ebből várva a bevételt. Így a felhasználókhoz pénztárcabarát, teljesen ingyenes, mikrotranzakcióktól mentes 
-szoftver kerül, kiküszöbölve ezzel azt is, hogy nem kell a valuta feltöltését,
-valamint a kifizetést megoldani, sem jogilag, sem pedig szoftverügyileg.
 
 5. Igényelt üzleti folyamatok modellje
+
 
 6. Követelménylista
