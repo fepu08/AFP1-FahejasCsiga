@@ -35,6 +35,14 @@ A kaszinókban, legyen az egy igazi, vagy virtuális, az egyik legnépszerűbb k
 
 
 5. Igényelt üzleti folyamatok modellje
-
+1991. évi XXXIV. törvény 1. § pontja szerint:" Szerencsejáték minden olyan játék, amelyben a játékos pénz fizetése, vagy vagyoni érték nyújtása fejében, meghatározott feltételek fennállása vagy bekövetkezése esetén pénznyereményre, vagy más vagyoni értékű nyereményre válik jogosulttá." 
+A mai világban már teljesen hétköznapinak számítanak az online szerencsejátékok (rulett, poker stb.),
+amiknél valódi valuta alapú téteket lehet felrakni. Mint ahogy az lenni szokott, legtöbbször a
+Bank nyer, és rengeteg ember kerül rossz anyagi helyzetbe emiatt.
+Ügyfelünk azzal próbálja ezt a helyzetet megoldan, hogy kizárólag érték nélküli játékzsetonokkal történő
+fogadásokat lehet kötni az applikációban. Mivel önmagában ez semmi nyereséget nem hoz, az ügyfelünk ezt reklámokkal szeretné
+kompenzálni, ebből várva a bevételt. Így a felhasználókhoz pénztárcabarát, teljesen ingyenes, mikrotranzakcióktól mentes 
+szoftver kerül, kiküszöbölve ezzel azt is, hogy nem kell a valuta feltöltését,
+valamint a kifizetést megoldani, sem jogilag, sem pedig szoftverügyileg.
 
 6. Követelménylista
