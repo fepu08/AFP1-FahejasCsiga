@@ -51,6 +51,7 @@ A rendszer egy időben egy gépen csak egy felhasználó tudja használni. Ezér
 felülete érhető el, azon belül a meglévő kreditjeit látja, valamint az osztó és a saját lapjait, valamint a játék kimenetelétől függően egy adott szöveget.
 
 10. Forgatókönyv
+A játék célja, hogy a játékos lapjai összértéke minél közelebb legyen a huszonegyhez, de azt ne lépje túl. A lapok pontértékei 1 és 11 közöttiek lehetnek. A lapok színének a játékban nincs jelentősége. A játékot legalább két játékos játssza, amelyből az egyik az osztó. Több játékos esetén a játékosok csak az osztó ellen játszanak, egymás ellen nem. Kaszinókban a bank az osztó.
 
 11. Fogalomszótár
 Dealer: Az osztó, a játék esetében a gép, aki ellen játszik a felhasználó.
