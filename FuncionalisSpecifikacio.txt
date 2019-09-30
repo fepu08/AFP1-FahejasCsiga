@@ -20,7 +20,7 @@ A kaszinók amely helyt ad a különböző szerencsejátékoknak és falain bel�
 Az online kaszinók – melyeket neveznek virtuális, illetve internetes kaszinóknak is – a hagyományos kaszinók interneten elérhető változatai. 
 Az online kaszinók lehetőséget adnak a játékosoknak, hogy interneten keresztül játszhassanak. Az online kaszinók általában 
 olyan esélyeket kínálnak, és olyan kifizetési struktúrával működnek, melyek nagyon hasonlóak a valódi kaszinókban tapasztaltakhoz.
-A kaszinókban, legyen az egy igazi, vagy virtuális, az egyik legnépszerűbb kártyajáték a Blackjak.
+A kaszinókban, legyen az egy igazi, vagy virtuális, az egyik legnépszerűbb kártyajáték a Blackjack.
 
 5. Igényelt folyamatok modellje
 
@@ -31,6 +31,8 @@ A kaszinókban, legyen az egy igazi, vagy virtuális, az egyik legnépszerűbb k
 8. Adatmodell
 
 9. Használati esetek
+A rendszer egy időben egy gépen csak egy felhasználó tudja használni. Ezért a szereplők körébe csak a játékos tartozik. A játékos számára a játék
+felülete érhető el, azon belül a meglévő kreditjeit látja, valamint az osztó és a saját lapjait, valamint a játék kimenetelétől függően egy adott szöveget.
 
 10. Forgatókönyv
 
