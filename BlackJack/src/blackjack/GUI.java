@@ -4,6 +4,8 @@ import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -14,7 +16,14 @@ import java.util.*;
 import javax.imageio.ImageIO;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+
+import blackjack.GUI.ActHit;
+import blackjack.GUI.ActNo;
+import blackjack.GUI.ActRules;
+import blackjack.GUI.ActStand;
+import blackjack.GUI.ActYes;
 
 public class GUI extends JFrame{
 	//randomizer for cards
@@ -52,8 +61,16 @@ public class GUI extends JFrame{
     ArrayList<Card> dCards = new ArrayList<Card>();
     
     //player and dealer totals
-    int dTotal = 0;
-    int pTotal = 0;
+    int pMinTotal = 0;
+    int pMaxTotal = 0;
+    int dMinTotal = 0;
+    int dMaxTotal = 0;
+    
+    //boolean for stages
+    boolean hit_stay_q = true;
+    boolean dealer_turn = false;
+    boolean play_more_q = false;
+    boolean dHitter = false;
 
     public GUI() throws IOException {
     	this.setTitle("Blackjack");
@@ -70,6 +87,48 @@ public class GUI extends JFrame{
 
         Click click = new Click();
         this.addMouseListener(click);
+        
+        //button stuff
+
+        ActHit actHit = new ActHit();
+        bHit.addActionListener(actHit);
+        bHit.setBounds(1000, 200, 100, 50);
+        bHit.setBackground(colorButton);
+        bHit.setFont(fontButton);
+        bHit.setText("HIT");
+        board.add(bHit);
+
+        ActStand actStand = new ActStand();
+        bStand.addActionListener(actStand);
+        bStand.setBounds(1130, 200, 130, 50);
+        bStand.setBackground(colorButton);
+        bStand.setFont(fontButton);
+        bStand.setText("STAND");
+        board.add(bStand);
+
+        ActYes actYes = new ActYes();
+        bYes.addActionListener(actYes);
+        bYes.setBounds(1000, 600, 100, 50);
+        bYes.setBackground(colorButton);
+        bYes.setFont(fontButton);
+        bYes.setText("YES");
+        board.add(bYes);
+
+        ActNo actNo = new ActNo();
+        bNo.addActionListener(actNo);
+        bNo.setBounds(1150, 600, 100, 50);
+        bNo.setBackground(colorButton);
+        bNo.setFont(fontButton);
+        bNo.setText("NO");
+        board.add(bNo);
+        
+        ActRules actRules = new ActRules();
+        bRules.addActionListener(actRules);
+        bRules.setBounds(40, 50, 50, 50);
+        bRules.setBackground(colorButton);
+        bRules.setFont(fontButton);
+        bRules.setText("?");
+        board.add(bRules);
     }
     public class Board extends JPanel {
 
@@ -93,6 +152,8 @@ public class GUI extends JFrame{
             g.setFont(fontQuest);
             g.drawString("Your hand:", 350, 190);
             g.drawString("Dealer's hand:", 320, 450);
+            
+          
             
             
             
@@ -140,6 +201,97 @@ public class GUI extends JFrame{
         @Override
         public void mouseReleased(MouseEvent arg0) {
 
+        }
+
+    }
+    public class ActYes implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            deck.RefreshCards();
+            pCards.clear();
+            dCards.clear();
+            play_more_q = false;
+            hit_stay_q = true;
+            int random = rnd.nextInt(52);
+            pCards.add(deck.getCards().get(random));
+            deck.getCards().get(random).used = true;
+            while (deck.getCards().get(random).used == true) {
+                random = rnd.nextInt(52);
+            }
+            dCards.add(deck.getCards().get(random));
+            deck.getCards().get(random).used = true;
+            random = rnd.nextInt(52);
+            while (deck.getCards().get(random).used == true) {
+                random = rnd.nextInt(52);
+            }
+            pCards.add(deck.getCards().get(random));
+            deck.getCards().get(random).used = true;
+            random = rnd.nextInt(52);
+            while (deck.getCards().get(random).used == true) {
+                random = rnd.nextInt(52);
+            }
+            dCards.add(deck.getCards().get(random));
+            deck.getCards().get(random).used = true;
+
+        }
+    }
+    public class ActHit implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (hit_stay_q == true) {
+
+                int tempMax = 0;
+                if (pMaxTotal <= 21) {
+                    tempMax = pMaxTotal;
+                } else {
+                    tempMax = pMinTotal;
+                }
+                int random = rnd.nextInt(52);
+                while (deck.getCards().get(random).used == true) {
+                    random = rnd.nextInt(52);
+                }
+                pCards.add(deck.getCards().get(random));
+                deck.getCards().get(random).used = true;
+
+            }
+        }
+    }
+    public class ActStand implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            if (hit_stay_q == true) {
+
+                int tempMax = 0;
+                if (pMaxTotal <= 21) {
+                    tempMax = pMaxTotal;
+                } else {
+                    tempMax = pMinTotal;
+                }
+                hit_stay_q = false;
+                dealer_turn = true;
+            }
+        }
+    }
+    public class ActNo implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            dispose();
+        }
+
+    }
+    public class ActRules implements ActionListener {
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+        	JOptionPane.showMessageDialog(null, "A Blackjack egy kártyajáték, melyet 52 lapos francia kártyával játszanak dzsókerek nélkül.\r\n" + 
+        			"A játék célja, hogy a játékos lapjai összértéke minél közelebb legyen a huszonegyhez, de azt ne lépje túl.\r\n" + 
+        			"A játékot egy játékos játssza és a gép, aki az osztó. A játékot az nyeri, akinek a lapjainak az értéke nagyobb. Az osztó addig húz lapot, amíg a lapjainak az értéke\r\n" + 
+        			"el nem éri legalább a 17-et.\r\n" + "Akkor van az egyik félnek Blackjack-je, ha az elsõ két kapott lap összértéke 21.\r\n" + "Ha valamelyik fél túllépné a 21-et, akkor azt úgy szokás mondani, hogy besokallt(angolul bust).\r\n"+
+        			"Hit - lapkérés\r\n"+"Stand - Megállás", "Help", JOptionPane.PLAIN_MESSAGE);
         }
 
     }
