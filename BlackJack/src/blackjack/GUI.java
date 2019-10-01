@@ -158,8 +158,129 @@ public class GUI extends JFrame {
         deck.getCards().get(random).used = true;
 
     }
+public void totalsChecker() {
+		
+		int acesCount;
+		
+		//calculation of player's totals
+		pMinTotal = 0;
+		pMaxTotal = 0;
+		acesCount = 0;
+		
+		for (Card c : pCards) {
+			pMinTotal += c.Value;
+			pMaxTotal += c.Value;
+			if (c.getFaceName() == "ace")
+				acesCount++;
+			
+		}
+		
+		if (acesCount > 0)
+			pMaxTotal += 10;
+		
+		dMinTotal = 0;
+		dMaxTotal = 0;
+		acesCount = 0;
+		
+		for (Card c : dCards) {
+			dMinTotal += c.Value;
+			dMaxTotal += c.Value;
+			if (c.getFaceName() == "ace")
+				acesCount++;
+			
+		}
+		
+		if (acesCount > 0)
+			dMaxTotal += 10;
+	}
+    public void setWinner() {
+        int pPoints = 0;
+        int dPoints = 0;
 
-    
+        if (pMaxTotal > 21) {
+            pPoints = pMinTotal;
+        } else {
+            pPoints = pMaxTotal;
+        }
+
+        if (dMaxTotal > 21) {
+            dPoints = dMinTotal;
+        } else {
+            dPoints = dMaxTotal;
+        }
+        if (pPoints > 21 && dPoints > 21) {
+        	winner = "It's a push!";
+        }else if((pCards.size() == 2 && pPoints == 21) && (dCards.size() == 2 && dPoints == 21)){
+        	winner = "It's a push";
+        }else if(pCards.size() == 2 && pPoints == 21){
+        	winner = "You win!";
+        }else if(dCards.size() == 2 && dPoints == 21){
+        	winner = "Dealer wins!";
+        }else if (dPoints > 21 && pPoints<=21) {
+        	winner = "Dealer busted!";
+        } else if (pPoints > 21 && dPoints <= 21) {
+        	winner = "Dealer wins!";
+        } else if (pPoints > dPoints) {
+        	winner = "You win!";
+        }
+        else if (pPoints == dPoints) {
+        	winner = "It's a push!";
+        } else {
+        	winner = "Dealer wins!";
+        }
+
+    }
+    public void dealerHitStand() {
+        dHitter = true;
+        int dAvailable = 0;
+        if (dMaxTotal > 21) {
+            dAvailable = dMinTotal;
+        } else {
+            dAvailable = dMaxTotal;
+        }
+
+        int pAvailable = 0;
+        if (pMaxTotal > 21) {
+            pAvailable = pMinTotal;
+        } else {
+            pAvailable = pMaxTotal;
+        }
+        
+        repaint();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        if (dMaxTotal < 17) {
+            int random;
+            int tempMax = 0;
+            if (dMaxTotal <= 21) {
+                tempMax = dMaxTotal;
+            } else {
+                tempMax = dMinTotal;
+            }
+            random = rnd.nextInt(52);
+            while (deck.getCards().get(random).used == true) {
+                random = rnd.nextInt(52);
+            }
+            dCards.add(deck.getCards().get(random));
+            deck.getCards().get(random).used = true;
+        } else {
+            int tempMax = 0;
+            if (dMaxTotal <= 21) {
+                tempMax = dMaxTotal;
+            } else {
+                tempMax = dMinTotal;
+            }
+            dealer_turn = false;
+            play_more_q = true;
+            setWinner();
+        }
+        dHitter = false;
+    }
     public void refresher() {
 
         if (hit_stay_q == true) {
@@ -171,8 +292,8 @@ public class GUI extends JFrame {
         }
 
         if (dealer_turn == true) {
-            if (dHitter == false) {}
-                
+            if (dHitter == false)
+                dealerHitStand();
         }
 
         if (play_more_q == true) {
@@ -182,6 +303,7 @@ public class GUI extends JFrame {
             bYes.setVisible(false);
             bNo.setVisible(false);
         }
+        totalsChecker();
 		
 		if ((pMaxTotal == 21 || pMinTotal >= 21) && hit_stay_q == true) {
 			int tempMax = 0;
@@ -203,6 +325,8 @@ public class GUI extends JFrame {
 			}
 			dealer_turn = false;
 			play_more_q = true;
+			
+			setWinner();
 		}
 		
 		repaint();
