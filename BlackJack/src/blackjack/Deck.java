@@ -63,10 +63,10 @@ class Deck {
 		Card C47 = new Card("heart","king", 10, ImageIO.read(new File("./Cards/king_of_hearts.png")));
 		Card C48 = new Card("spade","king", 10, ImageIO.read(new File("./Cards/king_of_spades.png")));
 
-		Card C49 = new Card("club","ace", 11, ImageIO.read(new File("./Cards/ace_of_clubs.png")));
-		Card C50 = new Card("diamond","ace", 11, ImageIO.read(new File("./Cards/ace_of_diamonds.png")));
-		Card C51 = new Card("heart","ace", 11, ImageIO.read(new File("./Cards/ace_of_hearts.png")));
-		Card C52 = new Card("spade","ace", 11, ImageIO.read(new File("./Cards/ace_of_spades.png")));
+		Card C49 = new Card("club","ace", 1, ImageIO.read(new File("./Cards/ace_of_clubs.png")));
+		Card C50 = new Card("diamond","ace", 1, ImageIO.read(new File("./Cards/ace_of_diamonds.png")));
+		Card C51 = new Card("heart","ace", 1, ImageIO.read(new File("./Cards/ace_of_hearts.png")));
+		Card C52 = new Card("spade","ace", 1, ImageIO.read(new File("./Cards/ace_of_spades.png")));
 
 		Cards.add(C1);
 		Cards.add(C2);
@@ -127,5 +127,8 @@ class Deck {
 			Cards.get(i).used = false;
 		}
 
+	}
+	public ArrayList<Card> getCards() {
+		return Cards;
 	}
 }
