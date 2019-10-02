@@ -43,6 +43,8 @@ Ezt a tesztet már a felhasználók végzik, időtartama egy hét. A tesztelés 
 fejlesztők kijavítják a lehető leghamarabb.
 
 12. Telepítési terv
+Az alkalmazás kizárólag asztali Java platformra készült. Java fordítóprogrammal futtatható. Az Blackjack alkalmazás külön nem telepíthető.
+
 
 13. Karbantartási terv
 
