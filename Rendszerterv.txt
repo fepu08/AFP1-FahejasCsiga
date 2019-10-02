@@ -47,4 +47,5 @@ Az alkalmazás kizárólag asztali Java platformra készült. Java fordítóprog
 
 
 13. Karbantartási terv
+A továbbfejlesztett alkalmazás kódja elérhető lesz igény szerinti platformon. (github, google drive)
 
