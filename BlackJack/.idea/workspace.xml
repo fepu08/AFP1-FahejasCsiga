@@ -59,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest.getSuit">
+  <component name="RunManager" selected="JUnit.CardTest.overall">
     <configuration name="CardTest.getCardImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackJack_1.0" />
       <extension name="coverage">
@@ -124,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GUItest.totalsChecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.overall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlackJack_1.0" />
       <extension name="coverage">
         <pattern>
@@ -133,8 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="blackjack" />
-      <option name="MAIN_CLASS_NAME" value="blackjack.GUItest" />
-      <option name="METHOD_NAME" value="totalsChecker" />
+      <option name="MAIN_CLASS_NAME" value="blackjack.CardTest" />
+      <option name="METHOD_NAME" value="overall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardTest.overall" />
+        <item itemvalue="JUnit.CardTest.getCardImage" />
         <item itemvalue="JUnit.CardTest.getSuit" />
         <item itemvalue="JUnit.CardTest.getFaceName" />
         <item itemvalue="JUnit.CardTest.getValue" />
-        <item itemvalue="JUnit.GUItest.totalsChecker" />
-        <item itemvalue="JUnit.CardTest.getCardImage" />
       </list>
     </recent_temporary>
   </component>

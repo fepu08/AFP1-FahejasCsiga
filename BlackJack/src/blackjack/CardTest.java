@@ -40,6 +40,13 @@ public class CardTest {
         }
     }
 
+    @org.junit.Test
+    public void overall() {
+        for (Card card : deck.getCards())
+        {
+            System.out.println(String.format("Value: %s | Suit: %s | Face Name: %s", card.getValue(), card.getSuit(), card.getFaceName()));
+        }
+    }
     public CardTest() throws IOException {
     }
 }
