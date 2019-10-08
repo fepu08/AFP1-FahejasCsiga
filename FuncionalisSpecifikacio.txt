@@ -41,7 +41,12 @@ valamint a kifizetést megoldani, sem jogilag, sem pedig szoftverügyileg.
 
 
 6. Követelménylista
-
+ID	Név		Kifejtés
+K1	Hit gomb	A felhasználó ha megnyomja egy újabb lapot ad a meglévő kártyáihoz
+K2	Stand gomb	Megnyomására a játékos jelzi, hogy már nem kér több lapot, ezután az osztó következik. Ha a játékos lapjainak értéke 21, vagy annál több akkor ez automatikus legyen.
+K3	Yes gomb	Ha a játékos szeretné még egy kört játszani, megnyomására a új kör kezdődik.
+K4	No gomb		Ha a játékos már nem akar többet játszani, megnyomására a program bezáródik.
+K5	Segítség gomb	Egy felugró ablakot nyit meg, amelyben a Blackjack szabályait látja a felhasználó, valamint, hogy melyik gomb mit jelent.
 7. Képernyőtervek
 
 8. Adatmodell
