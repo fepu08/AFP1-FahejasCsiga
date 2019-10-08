@@ -26,7 +26,10 @@ public class CardTest {
 
     @org.junit.Test
     public void getFaceName() {
-
+        for (Card card : deck.getCards())
+        {
+            System.out.println(card.getFaceName());
+        }
     }
 
     @org.junit.Test
