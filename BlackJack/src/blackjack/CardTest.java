@@ -3,7 +3,6 @@ package blackjack;
 import static org.junit.Assert.*;
 
 public class CardTest {
-
     @org.junit.Test
     public void getCardImage() {
     }
