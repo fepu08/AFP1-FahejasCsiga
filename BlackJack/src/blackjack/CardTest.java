@@ -34,6 +34,10 @@ public class CardTest {
 
     @org.junit.Test
     public void getSuit() {
+        for (Card card : deck.getCards())
+        {
+            System.out.println(card.getSuit());
+        }
     }
 
     public CardTest() throws IOException {
