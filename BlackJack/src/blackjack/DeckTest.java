@@ -1,11 +1,11 @@
 package blackjack;
 
-import org.junit.Test;
+        import org.junit.Test;
 
-import java.io.IOException;
-import java.util.ArrayList;
+        import java.io.IOException;
+        import java.util.ArrayList;
 
-import static org.junit.Assert.*;
+        import static org.junit.Assert.*;
 
 public class DeckTest {
     Deck d = new Deck();
@@ -38,5 +38,10 @@ public class DeckTest {
 
     @Test
     public void getCards() {
+        ArrayList<Card> cards = d.getCards();
+        for (Card card : cards) {
+            System.out.println(String.format("Value: %s | Suit: %s | Face Name: %s | Used: %s",
+                    card.getValue(), card.getSuit(), card.getFaceName(), card.used));
+        }
     }
 }
